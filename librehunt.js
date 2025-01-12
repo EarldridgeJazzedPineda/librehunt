@@ -945,15 +945,9 @@ function distro(){
   freesoftware = optionSelected("freesoftware");
   sourcebased = optionSelected("sourcebased");
 
-  // shuffle the lists inside the list (order of distros)
-  //distros = shuffle(distros);
-  // this will be the order of user input, and distro output
-  //var UserOptions=[linuxexpertise,oldnew,gaming,updates,lookalike,touch,popularity,customtweaks];
   var SelectedDistros = [];
-  // var SelectedDistrosMatches = []; // Is this variable even used?
 
   // add to selected distro db if the distro supports given architecture
-  // add to selected distro db if technical expertise is lower or equal to user
   for (i = 0; i < distros.length; i++)  {
     if (distros[i].architecture.includes(architecture) || architecture == 0) {
       // add distros[i] (the distro) to SelectedDistros list
