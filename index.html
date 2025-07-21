@@ -45,7 +45,7 @@
       gtag('config', 'UA-126746270-1');
     </script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- Custom Purple button CSS -->
     <link rel="stylesheet" href="customAndTwemoji.css">
     <!-- Custom Responsive button CSS -->
@@ -65,11 +65,12 @@
   <body>
     <!-- NAVBAR (purple color) -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6d00bd;">
+      <div class="container-fluid">
       <!-- home button (librehunt) -->
       <a class="navbar-brand" href="/">LibreHunt</a>
 
       <!-- toggle button for mobile phones -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -82,52 +83,53 @@
           <a class="nav-item nav-link" href="about">About</a>
         </div>
       </div>
+      </div>
     </nav>
 
     <!--TEXT-->
     <div class="container" id="text">
 
       <!-- headline: use linux! -->
-      <div class="jumbotron text-center mt-4 custom-row">
+      <div class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 text-center mt-4 custom-row">
         <img src="aboutImages/credits/linux.png">
         <h1 class="jumbotron-heading mb-3" id="VocabJumbotron">Safe, private, and secure. Choose Linux today.</h1>
         <h3 class="text-muted">Wait, what is linux?</h3>
       </div>
       <!-- explain what it is-->
-      <div class="text-center jumbotron custom-row">
+      <div class="text-center py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 custom-row">
         <h2>It's an operating system. <span class="text-muted">Operating System?</span></h2>
         <p class="lead">Operating systems are the main software behind your phone, or computer. Android, Windows, and macOS are operating systems.</p>
         <img src="home/linuxcircle.png" alt="Linux logo" class="img-fluid img-fluid-cooler m-3" width="175" height=auto>
         <img src="home/applecircle.png" alt="Apple logo"class="img-fluid img-fluid-cooler m-3" width="175" height=auto>
         <img src="home/windowscircle.png" alt="Windows logo" class="img-fluid img-fluid-cooler m-3" width="175" height=auto>
       </div>
-      <div class="jumbotron text-center custom-row">
-        <h1 class="font-weight-bold">Alright, so why should I use Linux?</h1>
+      <div class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 text-center custom-row">
+        <h1 class="fw-bold">Alright, so why should I use Linux?</h1>
       </div>
       <!-- explain why to use it -->
-      <div class="jumbotron row">
+      <div class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 row">
         <div class="col-md-7 text-center">
           <h1>It's safe and private. <span class="text-muted">No tracking.</span></h1>
           <p class="lead">No company watching over you, no "big brother is watching you" nonsense. Just your desktop and you, with no big scary corporation stealing all your data.</p>
         </div>
         <div class="col-md-5"><img alt="The spy emoji to characterize how secure Linux is" class="featurette-image img-fluid mx-auto d-block" height="auto" src="home/safe.svg" width="220"></div>
       </div>
-      <div class="jumbotron row">
+      <div class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 row">
         <div class="col-md-7 text-center">
           <h1>It's fast. <span class="text-muted">Lightning Fast.</span></h1>
           <p class="lead">It's super fast. So fast, that 100% of super computers use it. All Android phones use it too, and most servers keeping your websites, apps, and cat videos online are as well.</p>
         </div>
         <div class="col-md-5"><img alt="The lightning emoji to characterize how fast Linux is" class="featurette-image img-fluid mx-auto d-block" height="auto" src="home/fast.svg" width="220"></div>
       </div>
-      <div class="jumbotron row">
+      <div class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 row">
         <div class="col-md-7 text-center">
           <h1>It's Open Source. <span class="text-muted">Open Source?</span></h1>
-          <p class="lead">Fancy term time! Open Source means anyone is free to do <span class="font-weight-bold">whatever</span> they want with Linux. You can copy and make your own version, change a few things and help out Linux, or really anything! It gives more power to you!</p>
-          <p class="lead">(Fun fact, that's why this website is called <span class="font-weight-bold">libre</span>hunt.  Libre is derived from the Latin word for freedom, which is what Linux gives you.)</p>
+          <p class="lead">Fancy term time! Open Source means anyone is free to do <span class="fw-bold">whatever</span> they want with Linux. You can copy and make your own version, change a few things and help out Linux, or really anything! It gives more power to you!</p>
+          <p class="lead">(Fun fact, that's why this website is called <span class="fw-bold">libre</span>hunt.  Libre is derived from the Latin word for freedom, which is what Linux gives you.)</p>
         </div>
         <div class="col-md-5"><img alt="The open source logo to show that Linux is open source" class="featurette-image img-fluid mx-auto d-block" height="auto" src="home/openSource.png" width="220"></div>
       </div>
-      <div class="jumbotron row">
+      <div class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 row">
         <div class="col-md-7 text-center">
           <h1>It's got many flavours! <span class="text-muted">Awesome!</span></h1>
           <p class="lead">The actual term is "distro", as in your own distribution of Linux, but it just means that anyone can make their own Linux flavour by say, changing the theme, and putting different apps.</p>
@@ -139,25 +141,25 @@
     </div>
 
     <!--QUESTIONS-->
-    <div class="jumbotron container text-center jumbotron-little-little-padding" id="questions">
+    <div class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 container text-center jumbotron-little-little-padding" id="questions">
     		<h1 class="jumbotron-heading">Awesome, but there are a million Linux distros...</h1>
     		<p class="lead">That's alright, because I've made the second part of this website to help you choose which distro/Linux flavour to use!</p>
           <form>
             <div id="chooserCarousel" class="carousel slide " data-ride="carousel" data-interval="false">
               <ol class="carousel-indicators">
-                <li data-target="#chooserCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#chooserCarousel" data-slide-to="1"></li>
-                <li data-target="#chooserCarousel" data-slide-to="2"></li>
-                <li data-target="#chooserCarousel" data-slide-to="3"></li>
-                <li data-target="#chooserCarousel" data-slide-to="4"></li>
-                <li data-target="#chooserCarousel" data-slide-to="5"></li>
-                <li data-target="#chooserCarousel" data-slide-to="6"></li>
-                <li data-target="#chooserCarousel" data-slide-to="7"></li>
-                <li data-target="#chooserCarousel" data-slide-to="8"></li>
-                <li data-target="#chooserCarousel" data-slide-to="9"></li>
-                <li data-target="#chooserCarousel" data-slide-to="10"></li>
-                <li data-target="#chooserCarousel" data-slide-to="11"></li>
-                <li data-target="#chooserCarousel" data-slide-to="12"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="0" class="active"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="1"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="2"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="3"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="4"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="5"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="6"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="7"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="8"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="9"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="10"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="11"></li>
+                <button data-bs-target="#chooserCarousel" data-bs-slide-to="12"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -168,7 +170,7 @@
                       <h1>Choose a distro today</h1>
                       <p>New to Linux? No idea what to use? Confused by the gazillions of distros out there? Click next to begin discovering your perfect distro (out of our curated list).</p>
                       <div class="btn-group" role="group" aria-label="Continue with questions or read up first?">
-                        <a class="btn btn-lg btn-purple btn-responsive" href="#chooserCarousel" role="button" data-slide="next">Next!</a>
+                        <a class="btn btn-lg btn-purple btn-responsive" href="#chooserCarousel" role="button" data-bs-slide="next">Next!</a>
                       </div>
                     </div>
                   </div>
@@ -180,16 +182,13 @@
                       <img src="home/linuxexpertise.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Linux Expertise</h1>
                       <p>How good are you with computers and Linux?</p>
-                        <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="linuxexpertise" value="0"/> Beginner
-                          </label>
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="linuxexpertise" value="1"/> Medium
-                          </label>
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="linuxexpertise" value="2"/> Advanced
-                          </label>
+                        <div class="btn-group" href="#chooserCarousel">
+                          <input type="radio" name="linuxexpertise" value="0" id="linuxexpertise0" class="btn-check" onclick="carouselnext()"/>
+                          <label class="btn btn-lg btn-purple btn-responsive" for="linuxexpertise0">Beginner</label>
+                          <input type="radio" name="linuxexpertise" value="1" id="linuxexpertise1" class="btn-check" onclick="carouselnext()"/> 
+                          <label class="btn btn-lg btn-purple btn-responsive" for="linuxexpertise1">Medium</label>
+                          <input type="radio" name="linuxexpertise" value="2" id="linuxexpertise2" class="btn-check" onclick="carouselnext()"/> 
+                          <label class="btn btn-lg btn-purple btn-responsive" for="linuxexpertise2">Advanced</label>
                         </div>
                     </div>
                   </div>
@@ -201,13 +200,11 @@
                       <img src="home/oldnew.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Old Hardware Support</h1>
                       <p>Do you need to run your distro on old hardware?</p>
-                        <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="oldnew" value="0"/> Doesn't Matter
-                          </label>
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="oldnew" value="1"/> Yeah
-                          </label>
+                        <div class="btn-group" href="#chooserCarousel">
+                          <input type="radio" name="oldnew" value="0" id="oldnew0" class="btn-check" onclick="carouselnext()"/> 
+                          <label class="btn btn-lg btn-purple btn-responsive" for="oldnew0">Doesn't Matter</label>
+                          <input type="radio" name="oldnew" value="1" id="oldnew1" class="btn-check" onclick="carouselnext()"/> 
+                          <label class="btn btn-lg btn-purple btn-responsive" for="oldnew1">Yeah</label>
                         </div>
                     </div>
                   </div>
@@ -219,16 +216,13 @@
                       <img src="home/architecture.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Architecture</h1>
                       <p>What type of processor does your computer run on?</p>
-                        <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="architecture" value="x86"/> x86 (32-bit)
-                          </label>
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="architecture" value="0"/> x86 (64-bit)
-                          </label>
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="architecture" value="other"/> Other
-                          </label>
+                        <div class="btn-group" href="#chooserCarousel">
+                          <input type="radio" name="architecture" value="x86" id="architecturex86" class="btn-check" onclick="carouselnext()"/> 
+                          <label class="btn btn-lg btn-purple btn-responsive" for="architecturex86">x86 (32-bit)</label>
+                          <input type="radio" name="architecture" value="0" id="architecture0" class="btn-check" onclick="carouselnext()"/>
+                          <label class="btn btn-lg btn-purple btn-responsive" for="architecture0">x86 (64-bit)</label>
+                          <input type="radio" name="architecture" value="other" id="architectureother" class="btn-check" onclick="carouselnext()"/> 
+                          <label class="btn btn-lg btn-purple btn-responsive" for="architectureother">Other</label>
                         </div>
                     </div>
                   </div>
@@ -240,13 +234,11 @@
                       <img src="home/lts.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Timely Updates</h1>
                       <p>Do you want app-like updates, as in updates as they come, or OS-like updates as in once in 6 months?</p>
-                        <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="updates" value="0"/> Fast
-                          </label>
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="updates" value="1"/> Usual
-                          </label>
+                        <div class="btn-group" href="#chooserCarousel">
+                          <input type="radio" name="updates" value="0" id="updates0" class="btn-check" onclick="carouselnext()"/>
+                          <label class="btn btn-lg btn-purple btn-responsive" for="updates0">Fast</label>
+                          <input type="radio" name="updates" value="1" id="updates1" class="btn-check" onclick="carouselnext()"/> 
+                          <label class="btn btn-lg btn-purple btn-responsive" for="updates1">Usual</label>
                         </div>
                     </div>
                   </div>
@@ -258,13 +250,11 @@
                       <img src="home/gaming.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Gaming</h1>
                       <p>Do you want the distro to have a focus on delivering a good gaming experience, or it doesn't matter?</p>
-                        <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="gaming" value="0"/> Doesn't Matter
-                          </label>
-                          <label class="btn btn-lg btn-purple btn-responsive">
-                            <input type="radio" name="gaming" value="1"/> Yeah
-                          </label>
+                        <div class="btn-group" href="#chooserCarousel">
+                          <input type="radio" name="gaming" value="0" id="gaming0" class="btn-check" onclick="carouselnext()"/> 
+                          <label class="btn btn-lg btn-purple btn-responsive" for="gaming0">Doesn't Matter</label>
+                          <input type="radio" name="gaming" value="1" id="gaming1" class="btn-check" onclick="carouselnext()"/> 
+                          <label class="btn btn-lg btn-purple btn-responsive" for="gaming1">Yeah</label>
                         </div>
                     </div>
                   </div>
@@ -276,16 +266,13 @@
                       <img src="home/lookalike.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Lookalike</h1>
                       <p>Do you want the distro to look something like macOS or Windows, or it doesn't matter?</p>
-                      <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="lookalike" value="0"/> None
-                        </label>
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="lookalike" value="mac"/> macOS
-                        </label>
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="lookalike" value="windows"/> Windows
-                        </label>
+                      <div class="btn-group" href="#chooserCarousel">
+                        <input type="radio" name="lookalike" value="0" id="lookalike0" class="btn-check" onclick="carouselnext()"/>
+                        <label class="btn btn-lg btn-purple btn-responsive" for="lookalike0">None</label>
+                        <input type="radio" name="lookalike" value="mac" id="lookalikemac" class="btn-check" onclick="carouselnext()"/> 
+                        <label class="btn btn-lg btn-purple btn-responsive" for="lookalikemac">macOS</label>
+                        <input type="radio" name="lookalike" value="windows" id="lookalikewindows" class="btn-check" onclick="carouselnext()"/> 
+                        <label class="btn btn-lg btn-purple btn-responsive" for="lookalikewindows">Windows</label>
                       </div>
                     </div>
                   </div>
@@ -297,13 +284,11 @@
                       <img src="home/touch.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Touch Support</h1>
                       <p>Do you have a touchscreen? Will you be using the distro with a touchscreen?</p>
-                      <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="touch" value="0"/> Doesn't Matter
-                        </label>
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="touch" value="1"/> Yes
-                        </label>
+                      <div class="btn-group" href="#chooserCarousel">
+                        <input type="radio" name="touch" value="0" id="touch0" class="btn-check" onclick="carouselnext()"/> 
+                        <label class="btn btn-lg btn-purple btn-responsive" for="touch0">Doesn't Matter</label>
+                        <input type="radio" name="touch" value="1" id="touch1" class="btn-check" onclick="carouselnext()"/> 
+                        <label class="btn btn-lg btn-purple btn-responsive" for="touch1">Yes</label>
                       </div>
                     </div>
                   </div>
@@ -315,13 +300,11 @@
                       <img src="home/chat.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Popularity + More Support</h1>
                       <p>Would you want a distro with more popularity and support than something small and different?</p>
-                      <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="popularity" value="0"/> No
-                        </label>
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="popularity" value="1"/> Yes
-                        </label>
+                      <div class="btn-group" href="#chooserCarousel">
+                        <input type="radio" name="popularity" value="0" id="popularity0" class="btn-check" onclick="carouselnext()"/>
+                        <label class="btn btn-lg btn-purple btn-responsive" for="popularity0">No</label>
+                        <input type="radio" name="popularity" value="1" id="popularity1" class="btn-check" onclick="carouselnext()"/> 
+                        <label class="btn btn-lg btn-purple btn-responsive" for="popularity1">Yes</label>
                       </div>
                     </div>
                   </div>
@@ -333,13 +316,11 @@
                       <img src="home/customtweaks.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Appearances</h1>
                       <p>Would you want a unique experience and appearance the second you install it, than something with a typical stock appearance/desktop?</p>
-                      <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="customtweaks" value="0"/> Doesn't Matter
-                        </label>
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="customtweaks" value="1"/> Yes
-                        </label>
+                      <div class="btn-group" href="#chooserCarousel">
+                        <input type="radio" name="customtweaks" value="0" id="customtweaks0" class="btn-check" onclick="carouselnext()"/> 
+                        <label class="btn btn-lg btn-purple btn-responsive" for="customtweaks0">Doesn't Matter</label>
+                        <input type="radio" name="customtweaks" value="1" id="customtweaks1" class="btn-check" onclick="carouselnext()"/>
+                        <label class="btn btn-lg btn-purple btn-responsive" for="customtweaks1">Yes</label>
                       </div>
                     </div>
                   </div>
@@ -351,13 +332,11 @@
                       <img src="home/freesoftware.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Free Software</h1>
                       <p>Do you want to stick to just free drivers and video codecs, or it doesn't matter?</p>
-                      <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="freesoftware" value="0"/> Doesn't Matter
-                        </label>
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="freesoftware" value="1"/> Free Software Only
-                        </label>
+                      <div class="btn-group" href="#chooserCarousel">
+                        <input type="radio" name="freesoftware" value="0" id="freesoftware0" class="btn-check" onclick="carouselnext()"/>
+                        <label class="btn btn-lg btn-purple btn-responsive" for="freesoftware0">Doesn't Matter</label>
+                        <input type="radio" name="freesoftware" value="1" id="freesoftware1" class="btn-check" onclick="carouselnext()"/> 
+                        <label class="btn btn-lg btn-purple btn-responsive" for="freesoftware1">Free Software Only</label>
                       </div>
                     </div>
                   </div>
@@ -369,13 +348,11 @@
                       <img src="home/package.png" class="mb-3 img-fluid img-fluid-cooler">
                       <h1>Method of Installing Packages</h1>
                       <p>Would you want to use pre-made binary software packages, or have everything compiled from source code?</p>
-                      <div class="btn-group btn-group-toggle" data-toggle="buttons" href="#chooserCarousel" data-slide="next">
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="sourcebased" value="0"/> Binary Packages
-                        </label>
-                        <label class="btn btn-lg btn-purple btn-responsive">
-                          <input type="radio" name="sourcebased" value="1"/> Source Packages
-                        </label>
+                      <div class="btn-group" href="#chooserCarousel">
+                        <input type="radio" name="sourcebased" value="0" id="sourcebased0" class="btn-check" onclick="carouselnext()"/> 
+                        <label class="btn btn-lg btn-purple btn-responsive" for="sourcebased0">Binary Packages</label>
+                        <input type="radio" name="sourcebased" value="1" id="sourcebased1" class="btn-check" onclick="carouselnext()"/> 
+                        <label class="btn btn-lg btn-purple btn-responsive" for="sourcebased1">Source Packages</label>
                       </div>
                     </div>
                   </div>
@@ -392,13 +369,13 @@
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#chooserCarousel" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#chooserCarousel" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="visually-hidden">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#chooserCarousel" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#chooserCarousel" role="button" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="visually-hidden">Next</span>
               </a>
             </div>
           </form>
@@ -413,11 +390,7 @@
     <script>
       twemoji.parse(document.body);
     </script>
-    <!-- bootstrap scripts at the end for the page to load faster -->
-    <!-- Carousels and button groups don't work at the same time in Bootstrap 4.5.3 and later versions -->
-    <!-- See https://github.com/twbs/bootstrap/pull/31000 -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
   </body>
 </html>

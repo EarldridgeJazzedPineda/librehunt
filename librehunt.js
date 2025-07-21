@@ -1181,8 +1181,8 @@ function distro(){
   document.getElementById("questions").parentNode.removeChild(document.getElementById("questions"));
   document.getElementById("text").parentNode.removeChild(document.getElementById("text"));
 
-  // add Jumbotron
-  document.getElementById("distroFoundJumbotron").innerHTML += '<section class="jumbotron mx-5 my-5"><div class="container text-center"><h1 class="jumbotron-heading">Distros found!</h1><p class="lead">All distros found are ordered descending from peak similarity</p></div></section>';
+  // add not-so Jumbotron
+  document.getElementById("distroFoundJumbotron").innerHTML += '<section class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 mx-5 my-5"><div class="container text-center"><h1 class="jumbotron-heading">Distros found!</h1><p class="lead">All distros found are ordered descending from peak similarity</p></div></section>';
 
   //array with does match, doesn't match
   match=[" ✔️"," ❌"];
@@ -1210,7 +1210,7 @@ function distro(){
     }
     document.getElementById("distroFound").innerHTML +=
     // card div
-    '<div class="card mx-auto my-3 text-center" style="width: 22rem;">'+
+    '<div class="card mx-auto my-3 text-center px-0" style="width: 22rem;">'+
       '<div class="align-items-center">'+
         // distro logo
         '<img class="m-2"src="logos/'+current.codename+'.png" alt="'+current.name+' Logo" width="200" height=auto>'+
@@ -1218,7 +1218,7 @@ function distro(){
       // body, including if each category matches or not
       '<div class="card-body">'+
         '<h5 class="card-title">'+current.name+'</h5>'+
-        '<p class="card-text font-weight-bold">'+current.shortdes+'</p>'+
+        '<p class="card-text fw-bold">'+current.shortdes+'</p>'+
         '<p class="card-text">'+linuxexpertisesupport[current.linuxexpertise]+match[current.matches[0]]+'</p>'+
         '<p class="card-text">'+oldnewsupport[current.oldnew]+match[current.matches[1]]+'</p>'+
         '<p class="card-text">'+gamingsupport[current.gaming]+match[current.matches[2]]+'</p>'+
@@ -1246,7 +1246,7 @@ function distrolist(){
   for (var i = 0; i < distros.length; i++){
     document.getElementById("distrolist").innerHTML +=
     // card div
-    '<div class="card mx-auto my-3 text-center" style="width: 22rem;">'+
+    '<div class="card mx-auto my-3 text-center px-0" style="width: 22rem;">'+
       '<div class="align-items-center">'+
         // distro logo
         '<img class="m-2"src="logos/'+distrolist[i].codename+'.png" alt="'+distrolist[i].name+' logo" width="200" height=auto>'+
@@ -1254,7 +1254,7 @@ function distrolist(){
       // card body, including title, description, website button, and contribution button
       '<div class="card-body">'+
         '<h5 class="card-title">'+distrolist[i].name+'</h5>'+
-        '<p class="card-text font-weight-bold">'+distrolist[i].shortdes+'</p>'+
+        '<p class="card-text fw-bold">'+distrolist[i].shortdes+'</p>'+
         '<a href="'+distrolist[i].link+'" class="btn btn-purple btn-space" target="_blank">Website</a>'+
         '<a href="'+distrolist[i].donate+'" class="btn btn-success btn-space" target="_blank">Contribute</a>'+
       '</div>'+
@@ -1267,4 +1267,9 @@ function distrolist(){
 function distrolisttext(){
   document.getElementById("distrolisttext").innerHTML
   += "All distros in the database. Currently " + distros.length + " distros curated! (always shuffled on reload of the page)"
+}
+
+function carouselnext(){
+  const carousel = new bootstrap.Carousel(document.getElementById("chooserCarousel"));
+  carousel.next();
 }

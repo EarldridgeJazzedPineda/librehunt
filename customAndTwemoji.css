@@ -20,6 +20,9 @@ body {
 .btn-purple:focus,
 .btn-purple:active,
 .btn-purple.active,
+.btn-purple:first-child:active,
+.btn-check:hover+.btn,
+.btn-check:checked+.btn,
 .open .dropdown-toggle.btn-purple {
   color: #ffffff;
   background-color: #49247A;

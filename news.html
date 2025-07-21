@@ -45,7 +45,7 @@
           gtag('config', 'UA-126746270-1');
         </script>
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
         <!-- Custom Purple button CSS -->
         <link rel="stylesheet" href="customAndTwemoji.css">
         <!-- Custom Responsive button CSS -->
@@ -64,11 +64,12 @@
     <body>
       <!-- Navbar with purple color -->
       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6d00bd;">
+        <div class="container-fluid">
         <!-- home button (librehunt) -->
         <a class="navbar-brand" href="/">LibreHunt</a>
 
         <!-- toggle button for mobile phones -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -81,11 +82,12 @@
             <a class="nav-item nav-link" href="about">About</a>
           </div>
         </div>
+        </div>
       </nav>
       <div id="content" class="container">
 
   <!-- WEBSITE NEWS -->
-  <section class="jumbotron text-center mt-5 jumbotron-little-padding custom-row">
+  <section class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 text-center mt-5 jumbotron-little-padding custom-row">
         <div class="container">
         <!-- reusing recommendations.html code for centering! -->
         <div class="container">
@@ -99,7 +101,7 @@
         </div>
   </section>
 
-  <section class="jumbotron text-center mt-5 jumbotron-little-padding custom-row">
+  <section class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 text-center mt-5 jumbotron-little-padding custom-row">
         <div class="container">
           <h2>Partnership with Shells.com <span class="text-muted">- February 9th 2021</span></h2>
         <!-- reusing recommendations.html code for centering! -->
@@ -114,7 +116,7 @@
         </div>
   </section>
 
-  <section class="jumbotron text-center mt-5 jumbotron-little-padding custom-row">
+  <section class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 text-center mt-5 jumbotron-little-padding custom-row">
         <div class="container">
           <h2>On DistroTube's new video! <span class="text-muted">- November 30th 2018</span></h2>
         <!-- reusing recommendations.html code for centering! -->
@@ -130,7 +132,7 @@
         </div>
   </section>
 
-  <section class="jumbotron text-center mt-5 jumbotron-little-padding custom-row">
+  <section class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 text-center mt-5 jumbotron-little-padding custom-row">
         <div class="container">
           <h2>LibreHunt 1.5! <span class="text-muted">- November 29th 2018</span></h2>
         <!-- reusing recommendations.html code for centering! -->
@@ -144,7 +146,7 @@
         </div>
   </section>
 
-  <section class="jumbotron text-center mt-5 jumbotron-little-padding custom-row">
+  <section class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 text-center mt-5 jumbotron-little-padding custom-row">
         <div class="container">
           <h2>Featured on Forbes! <span class="text-muted">- November 27th 2018</span></h2>
         <!-- reusing recommendations.html code for centering! -->
@@ -160,7 +162,7 @@
         </div>
   </section>
 
-  <section class="jumbotron text-center mt-5 jumbotron-little-padding custom-row">
+  <section class="py-4 px-3 mb-4 bg-body-secondary rounded-1 py-sm-5 py-sm-4 text-center mt-5 jumbotron-little-padding custom-row">
         <div class="container">
           <h2>LibreHunt version 1!<span class="text-muted">- October 1st 2018</span></h2>
         <!-- reusing recommendations.html code for centering! -->
@@ -179,8 +181,7 @@
         twemoji.parse(document.body);
       </script>
       <!-- bootstrap scripts at the end for the page to load faster -->
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
     </body>
 </html>
