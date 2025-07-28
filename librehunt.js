@@ -1021,7 +1021,23 @@ var distros = [
    }
 ]
 
+// function for checking if the user selected any value in a given option
 function optionSelected(optionName) {
+  var option = document.getElementsByName(optionName);
+  for (var i = 0, length = option.length; i < length; i++)
+  {
+   if (option[i].checked)
+   {
+    return true;
+    // stop checking if found already
+    break;
+   }
+  }
+  // if no checkmarks were clicked, return false
+  return false;
+}
+
+function optionValue(optionName) {
   var option = document.getElementsByName(optionName);
   for (var i = 0, length = option.length; i < length; i++)
   {
@@ -1053,17 +1069,17 @@ function shuffle(a) {
 function distro(){
   questions = 10;
   // assign user values to variable
-  linuxexpertise = optionSelected("linuxexpertise");
-  oldnew = optionSelected("oldnew");
-  architecture = optionSelected("architecture");
-  gaming = optionSelected("gaming");
-  updates = optionSelected("updates");
-  lookalike = optionSelected("lookalike");
-  touch = optionSelected("touch");
-  popularity = optionSelected("popularity");
-  customtweaks = optionSelected("customtweaks");
-  freesoftware = optionSelected("freesoftware");
-  sourcebased = optionSelected("sourcebased");
+  linuxexpertise = optionSelected("linuxexpertise") ? optionValue("linuxexpertise") : 0;
+  oldnew = optionSelected("oldnew") ? optionValue("oldnew") : 0;
+  architecture = optionSelected("architecture") ? optionValue("architecture") : 0;
+  gaming = optionSelected("gaming") ? optionValue("gaming") : 0;
+  updates = optionSelected("updates") ? optionValue("updates") : 0;
+  lookalike = optionSelected("lookalike") ? optionValue("lookalike") : 0;
+  touch = optionSelected("touch") ? optionValue("touch") : 0;
+  popularity = optionSelected("popularity") ? optionValue("popularity") : 1;
+  customtweaks = optionSelected("customtweaks") ? optionValue("customtweaks") : 0;
+  freesoftware = optionSelected("freesoftware") ? optionValue("freesoftware") : 0;
+  sourcebased = optionSelected("sourcebased") ? optionValue("sourcebased") : 0;
 
   var SelectedDistros = [];
 
