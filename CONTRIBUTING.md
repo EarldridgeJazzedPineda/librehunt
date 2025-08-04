@@ -22,6 +22,7 @@ Open the librehunt.js file in a text editor, and copy the following template ent
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"",
    }
 ```
 
@@ -48,6 +49,7 @@ to the end of the `distros` array, like this:
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"",
    }
 ]
 ```
@@ -96,14 +98,19 @@ Next, fill out the following properties with the appropriate value:
 * `architecture` - the instruction set architectures (ISAs) supported by the distribution. Possible values are:
   * `"x86"` - the distribution supports the 32-bit x86 ISA created by Intel, also known as IA-32, i386, i486, i586, or i686.
   * `"other"` - the distribution supports ISAs other than x86 (32-bit or 64-bit), including but not limited to ARM, PowerPC, and RISC-V.
-* `sourcebased` - defines how a users installs software in the distribution. Possible values are:
+* `sourcebased` - defines how a user installs software in the distribution. Possible values are:
   * `0` - the distribution provides pre-built software, also known as "binary packages", in repositories from which they can be installed using a package manager.
   * `1` - the distribution has users build software from source code, whether or not using a package manager. Support for binary packages is optional.
+* `purpose` - defines what purpose or use case that the distribution is suitable for. Possible values are:
+  * `"0"` - the distribution is general-purpose, i.e. it is suitable for all kinds of purposes and use cases.
+  * `"desktop"` - the distribution comes with a desktop environment and isn't meant to be used without one.
+  * `"security"` - the distribution is for security, penetration testing, or privacy purposes or use cases.
+  * `"enterprise"` - the distribution is for enterprise purposes or use cases.
 
 Example entry:
 ```
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Bodhi Linux",
       "lookalike":"0",
@@ -121,6 +128,7 @@ Example entry:
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    }
 ```
 

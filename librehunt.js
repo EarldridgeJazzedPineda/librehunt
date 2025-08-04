@@ -18,6 +18,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":1,
@@ -38,6 +39,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":1,
@@ -58,6 +60,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -78,6 +81,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -98,6 +102,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":0,
@@ -118,6 +123,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -138,6 +144,7 @@ var distros = [
       "freesoftware":1,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -158,6 +165,7 @@ var distros = [
       "freesoftware":1,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -178,6 +186,7 @@ var distros = [
       "freesoftware":1,
       "architecture":["x86", "other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -198,6 +207,7 @@ var distros = [
       "freesoftware":1,
       "architecture":["x86"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -218,6 +228,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"security",
    },
    {
       "notrolling":2,
@@ -238,6 +249,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"security",
    },
    {
       "notrolling":2,
@@ -258,6 +270,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"security",
    },
    {
       "notrolling":1,
@@ -278,6 +291,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -298,6 +312,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -318,6 +333,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -338,6 +354,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":0,
@@ -358,6 +375,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -378,6 +396,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":1,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -398,6 +417,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -418,6 +438,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -438,6 +459,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -458,6 +480,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -478,6 +501,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -498,6 +522,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -518,6 +543,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -538,6 +564,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -558,6 +585,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":0,
@@ -578,6 +606,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"security",
    },
    {
       "notrolling":0,
@@ -598,6 +627,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -618,6 +648,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -638,6 +669,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -658,6 +690,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -678,6 +711,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -698,6 +732,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":1,
@@ -718,6 +753,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":1,
@@ -738,6 +774,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":1,
@@ -758,6 +795,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":1,
@@ -778,6 +816,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":0,
@@ -798,6 +837,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -818,6 +858,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -838,6 +879,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -858,6 +900,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -878,6 +921,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -898,6 +942,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":0,
@@ -918,6 +963,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":0,
@@ -938,6 +984,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":1,
@@ -958,6 +1005,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":1,
@@ -978,6 +1026,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -998,6 +1047,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -1018,6 +1068,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"enterprise",
    },
    {
       "notrolling":1,
@@ -1038,6 +1089,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":0,
@@ -1058,6 +1110,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -1078,6 +1131,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":0,
@@ -1098,6 +1152,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -1118,6 +1173,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
+      "purpose":"desktop",
    },
    {
       "notrolling":2,
@@ -1138,6 +1194,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":0,
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -1158,6 +1215,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":1,
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -1178,6 +1236,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":1,
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -1198,6 +1257,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
+      "purpose":"desktop",
    }
 ]
 
@@ -1247,9 +1307,10 @@ function shuffle(a) {
 }
 
 function distro(){
-  questions = 10;
+  questions = 11;
   // assign user values to variable
   linuxexpertise = optionSelected("linuxexpertise") ? optionValue("linuxexpertise") : 0;
+  purpose = optionSelected("purpose") ? optionValue("purpose") : "desktop";
   oldnew = optionSelected("oldnew") ? optionValue("oldnew") : 0;
   architecture = optionSelected("architecture") ? optionValue("architecture") : 0;
   gaming = optionSelected("gaming") ? optionValue("gaming") : 0;
@@ -1278,6 +1339,15 @@ function distro(){
     } else {
       SelectedDistros[i].matches.push(1);
     }
+    
+    // PURPOSE
+    // matches if the distro matches with the user selection or is general-purpose
+    if (SelectedDistros[i].purpose == purpose || SelectedDistros[i].purpose == 0) {
+      SelectedDistros[i].matches.push(0);
+    } else {
+      SelectedDistros[i].matches.push(1);
+    }
+    
     // OLD HARDWARE SUPPORT
     // if old hardware support is "don't care" or it matches with the distro, say it matches with the user choice
     // has a "don't care" option
@@ -1298,7 +1368,7 @@ function distro(){
     }
 
     // UPDATES
-    // notrolling basically means stable, and 0 means fast, 1 means stable
+    // notrolling basically means stable, and 0 means fast, 1 means stable, 2 means slow
     if (SelectedDistros[i].notrolling == updates){
       SelectedDistros[i].matches.push(0);
     }
@@ -1404,6 +1474,12 @@ function distro(){
     else {
       lookalikesupport = "Similar aesthetic to Windows"
     }
+    switch (current.purpose) {
+      case "0": purposesupport = "A general-purpose distribution"; break;
+      case "desktop": purposesupport = "For use as a desktop OS"; break;
+      case "security": purposesupport = "For security/privacy purposes"; break;
+      case "enterprise": purposesupport = "For enterprise purposes"; break;
+    }
     document.getElementById("distroFound").innerHTML +=
     // card div
     '<div class="card mx-auto my-3 text-center px-0" style="width: 22rem;">'+
@@ -1416,15 +1492,16 @@ function distro(){
         '<h5 class="card-title">'+current.name+'</h5>'+
         '<p class="card-text fw-bold">'+current.shortdes+'</p>'+
         '<p class="card-text">'+linuxexpertisesupport[current.linuxexpertise]+match[current.matches[0]]+'</p>'+
-        '<p class="card-text">'+oldnewsupport[current.oldnew]+match[current.matches[1]]+'</p>'+
-        '<p class="card-text">'+gamingsupport[current.gaming]+match[current.matches[2]]+'</p>'+
-        '<p class="card-text">'+updatesupport[current.notrolling]+match[current.matches[3]]+'</p>'+
-        '<p class="card-text">'+lookalikesupport+match[current.matches[4]]+'</p>'+
-        '<p class="card-text">'+touchsupport[current.touch]+match[current.matches[5]]+'</p>'+
-        '<p class="card-text">'+popularitysupport[current.popularity]+match[current.matches[6]]+'</p>'+
-        '<p class="card-text">'+appearancesupport[current.customtweaks]+match[current.matches[7]]+'</p>'+
-        '<p class="card-text">'+freesoftwaresupport[current.freesoftware]+match[current.matches[8]]+'</p>'+
-        '<p class="card-text">'+sourcebasedsupport[current.sourcebased]+match[current.matches[9]]+'</p>'+
+        '<p class="card-text">'+purposesupport+match[current.matches[1]]+'</p>'+
+        '<p class="card-text">'+oldnewsupport[current.oldnew]+match[current.matches[2]]+'</p>'+
+        '<p class="card-text">'+gamingsupport[current.gaming]+match[current.matches[3]]+'</p>'+
+        '<p class="card-text">'+updatesupport[current.notrolling]+match[current.matches[4]]+'</p>'+
+        '<p class="card-text">'+lookalikesupport+match[current.matches[5]]+'</p>'+
+        '<p class="card-text">'+touchsupport[current.touch]+match[current.matches[6]]+'</p>'+
+        '<p class="card-text">'+popularitysupport[current.popularity]+match[current.matches[7]]+'</p>'+
+        '<p class="card-text">'+appearancesupport[current.customtweaks]+match[current.matches[8]]+'</p>'+
+        '<p class="card-text">'+freesoftwaresupport[current.freesoftware]+match[current.matches[9]]+'</p>'+
+        '<p class="card-text">'+sourcebasedsupport[current.sourcebased]+match[current.matches[10]]+'</p>'+
         '<div class="btn-group-vertical">'+
         '<a href='+current.link+' class="btn btn-purple btn-space" target="_blank">Website</a>'+
         '<a href='+current.donate+' class="btn btn-success btn-space" target="_blank">Contribute</a>'+
