@@ -55,8 +55,9 @@ Make sure to add a comma at the end of the previous entry.
 
 Next, fill out the following properties with the appropriate value:
 * `notrolling` - defines how often the distributions makes software updates and releases. Possible values are:
-  * `0` - the distribution has a rolling release cycle, which means that software updates are made available in repositories as soon as possible
-  * `1` - the distribution has a fixed release cycle, which means that new releases are made every once in a while with fixed versions of software.
+  * `0` - the distribution has a rolling release cycle, which means that software updates are made available in repositories as soon as possible.
+  * `1` - the distribution has a fixed release cycle, which means that new releases are made every once in a while (up to 11 months) with fixed versions of software.
+  * `2` - the distribution has a fixed release cycle, which means that new releases are made every once in a while (1 year or more) or with no defined release schedule, with fixed versions of software.
 * `name` - the official name of the distribution, including the words "Linux" and "OS" if any.
 * `lookalike` - defines what the distribution's default desktop environment looks like. Possible values are:
   * `"mac"` - the default desktop environment resembles that of Apple's macOS 10.0 onwards. It features two bars, one at the top and one at the bottom of the screen. The top bar includes notification icons, date and time, and optionally the application menu bar. The bottom bar includes pinned applications. GNOME and Pantheon by default resemble macOS. 

@@ -1,6 +1,6 @@
 var distros = [
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Elementary OS",
       "lookalike":"mac",
@@ -80,7 +80,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Zorin OS",
       "lookalike":"windows",
@@ -120,7 +120,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"PureOS",
       "lookalike":"0",
@@ -140,7 +140,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Trisquel",
       "lookalike":"windows",
@@ -220,7 +220,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Tails",
       "lookalike":"0",
@@ -240,7 +240,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Qubes OS",
       "lookalike":"0",
@@ -280,7 +280,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Debian",
       "lookalike":"0",
@@ -300,7 +300,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"OpenSUSE Leap",
       "lookalike":"0",
@@ -420,7 +420,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Pop!_OS",
       "lookalike":"0",
@@ -440,7 +440,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Mageia",
       "lookalike":"0",
@@ -480,7 +480,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Linux Lite",
       "lookalike":"windows",
@@ -500,7 +500,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Bodhi Linux",
       "lookalike":"0",
@@ -520,7 +520,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Knoppix",
       "lookalike":"0",
@@ -540,7 +540,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Feren OS",
       "lookalike":"windows",
@@ -600,7 +600,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"OpenMandriva Rock",
       "lookalike":"windows",
@@ -640,7 +640,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Frugalware",
       "lookalike":"windows",
@@ -660,7 +660,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Slackware",
       "lookalike":"0",
@@ -680,7 +680,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Puppy Linux",
       "lookalike":"windows",
@@ -860,7 +860,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Elive",
       "lookalike":"0",
@@ -880,7 +880,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"MX Linux",
       "lookalike":"windows",
@@ -980,7 +980,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"antiX",
       "lookalike":"windows",
@@ -1000,7 +1000,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"AlmaLinux OS",
       "lookalike":"mac",
@@ -1060,7 +1060,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"SparkyLinux",
       "lookalike":"windows",
@@ -1120,7 +1120,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Tiny Core Linux",
       "lookalike":"0",
@@ -1140,7 +1140,7 @@ var distros = [
       "sourcebased":0,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"CRUX",
       "lookalike":"0",
@@ -1160,7 +1160,7 @@ var distros = [
       "sourcebased":1,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"GoboLinux",
       "lookalike":"windows",
@@ -1180,7 +1180,7 @@ var distros = [
       "sourcebased":1,
    },
    {
-      "notrolling":1,
+      "notrolling":2,
       "matches":[],
       "name":"Q4OS",
       "lookalike":"windows",
@@ -1298,7 +1298,7 @@ function distro(){
     }
 
     // UPDATES
-    // notrolling basically means stable, and 0 means fast, 1 means stable TODO add slow option
+    // notrolling basically means stable, and 0 means fast, 1 means stable
     if (SelectedDistros[i].notrolling == updates){
       SelectedDistros[i].matches.push(0);
     }
@@ -1385,7 +1385,7 @@ function distro(){
   linuxexpertisesupport=["For beginning users", "For users with medium expertise", "For advanced users"]
   oldnewsupport=["Doesn't support old hardware","Supports old hardware"]
   gamingsupport=["Not good with games","Good with games"]
-  updatesupport =["Fast updates","Stable updates"]
+  updatesupport =["Fast updates","Stable updates","Slow updates"]
   touchsupport=["No touch support","Touch support"]
   popularitysupport=["Less popular","Very popular"]
   appearancesupport=["A default desktop","A unique aesthetic and design"]
