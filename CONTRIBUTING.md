@@ -102,8 +102,7 @@ Next, fill out the following properties with the appropriate value:
   * `0` - the distribution provides pre-built software, also known as "binary packages", in repositories from which they can be installed using a package manager.
   * `1` - the distribution has users build software from source code, whether or not using a package manager. Support for binary packages is optional.
 * `purpose` - defines what purpose or use case that the distribution is suitable for. Possible values are:
-  * `"0"` - the distribution is general-purpose, i.e. it is suitable for all kinds of purposes and use cases.
-  * `"desktop"` - the distribution comes with a desktop environment and isn't meant to be used without one.
+  * `"0"` - the distribution is general-purpose, i.e. it is suitable for all kinds of purposes and use cases, or for daily use.
   * `"security"` - the distribution is for security, penetration testing, or privacy purposes or use cases.
   * `"enterprise"` - the distribution is for enterprise purposes or use cases.
 
@@ -128,7 +127,7 @@ Example entry:
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    }
 ```
 

@@ -18,7 +18,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":1,
@@ -39,7 +39,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":1,
@@ -81,7 +81,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -102,7 +102,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -123,7 +123,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -354,7 +354,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -438,7 +438,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -459,7 +459,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -501,7 +501,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -522,7 +522,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -543,7 +543,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -564,7 +564,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -585,7 +585,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -732,7 +732,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":1,
@@ -753,7 +753,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":1,
@@ -774,7 +774,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":1,
@@ -795,7 +795,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":1,
@@ -816,7 +816,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -900,7 +900,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -921,7 +921,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -942,7 +942,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -963,7 +963,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -984,7 +984,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["other"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":1,
@@ -1005,7 +1005,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":1,
@@ -1026,7 +1026,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -1047,7 +1047,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -1089,7 +1089,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -1110,7 +1110,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -1131,7 +1131,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86", "other"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":0,
@@ -1173,7 +1173,7 @@ var distros = [
       "freesoftware":0,
       "architecture":[],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    },
    {
       "notrolling":2,
@@ -1257,7 +1257,7 @@ var distros = [
       "freesoftware":0,
       "architecture":["x86"],
       "sourcebased":0,
-      "purpose":"desktop",
+      "purpose":"0",
    }
 ]
 
